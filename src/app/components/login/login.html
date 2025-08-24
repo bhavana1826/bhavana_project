@@ -1,0 +1,13 @@
+<div class="container mt-5 col-6">
+<h1>Login</h1>
+  <label>username</label> 
+  <input type="text" class="form-control" [(ngModel)]="username" > 
+</div>
+<div class="col-6 container">
+     <label>Password</label> 
+  <input type="password" class="form-control" [(ngModel)]="Password">
+  <div class="reset-button">
+  <button class="btn btn-primary login-button mt-3"(click) ="OnLogin()">login</button>
+  <button class="btn btn-secondary mt-3" (click)="OnReset()">Reset</button>
+  </div>
+</div>
